@@ -1,0 +1,102 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+th {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  font-weight: normal;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+td {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em 1em;
+}
+
+.highlight {
+  background-color: rgb(143, 194, 221);
+}
+
+dialog {
+  background-color: rgb(184, 145, 86);
+  border-radius: 2rem;
+  border-width: 1px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  max-height: 50dvh;
+  overflow-y: auto;
+  transform: translate(-50%, -50%);
+  width: 50dvw;
+  z-index: 999;
+}
+.wrapper {
+  align-items: flex-start;
+
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.menu th {
+  background-color: rgb(216, 184, 104);
+  text-align: center;
+}
+
+.menu {
+  border-width: 1px;
+
+  background-color: rgb(234, 224, 158);
+  padding: 5px;
+  margin: 1rem;
+  min-width: 32dvw;
+  min-height: 25dvh;
+}
+.menu tr {
+  text-align: center;
+}
+.menu tr:nth-child(even) {
+  background-color: #00000022;
+}
+.contact {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1rem;
+  width: 12dvw;
+  word-wrap: break-word;
+  padding: 5px;
+  margin: 1rem;
+  background-color: rgb(240, 224, 144);
+  height: fit-content;
+}
+.menu td {
+  max-width: 10dvh;
+  word-wrap: break-word;
+  position: relative;
+}
+
+.contact p {
+  margin: 1rem;
+}
+.randomclass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.menu table {
+  margin: 100px;
+}
